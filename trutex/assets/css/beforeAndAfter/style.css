@@ -1,0 +1,8 @@
+.main-section::before {
+  content: "";
+  display: block;
+  height: 160px; /* Height of your fixed header */
+  margin-top: -160px; /* Negative margin equal to the height of your header */
+  visibility: hidden;
+  pointer-events: none;
+}
